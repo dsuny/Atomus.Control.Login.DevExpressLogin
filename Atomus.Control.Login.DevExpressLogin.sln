@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31C92C61-9250-44E0-8986-4FE28ADECF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{86033B72-7615-4EC6-A044-EADFA0EF142E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{0EADDCC8-B4C1-4E71-8723-4FA86B0D4138}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DevExpressLoginController.cs = src\Controllers\DevExpressLoginController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{479C26A6-6C53-40C5-A218-A8E77F1966BF}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DevExpressLoginSearchModel.cs = src\Models\DevExpressLoginSearchModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{1F08AEFF-AD25-4DB8-B912-DE38F706D5AA}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DevExpressLogin.cs = src\Views\DevExpressLogin.cs
+		src\Views\DevExpressLogin.Designer.cs = src\Views\DevExpressLogin.Designer.cs
+		src\Views\DevExpressLogin.resx = src\Views\DevExpressLogin.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Login.DevExpressLogin.V18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Login.DevExpressLogin.V18.1(dotNet).csproj", "{56AF9D3A-3C56-4886-849C-D862AA3F2987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Login.DevExpressLogin.V20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Login.DevExpressLogin.V20.1(dotNet).csproj", "{F4661730-6F37-49E9-8E62-302970A4FA31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AF9D3A-3C56-4886-849C-D862AA3F2987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AF9D3A-3C56-4886-849C-D862AA3F2987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AF9D3A-3C56-4886-849C-D862AA3F2987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AF9D3A-3C56-4886-849C-D862AA3F2987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4661730-6F37-49E9-8E62-302970A4FA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4661730-6F37-49E9-8E62-302970A4FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4661730-6F37-49E9-8E62-302970A4FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4661730-6F37-49E9-8E62-302970A4FA31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EADDCC8-B4C1-4E71-8723-4FA86B0D4138} = {31C92C61-9250-44E0-8986-4FE28ADECF98}
+		{479C26A6-6C53-40C5-A218-A8E77F1966BF} = {31C92C61-9250-44E0-8986-4FE28ADECF98}
+		{1F08AEFF-AD25-4DB8-B912-DE38F706D5AA} = {31C92C61-9250-44E0-8986-4FE28ADECF98}
+		{56AF9D3A-3C56-4886-849C-D862AA3F2987} = {86033B72-7615-4EC6-A044-EADFA0EF142E}
+		{F4661730-6F37-49E9-8E62-302970A4FA31} = {86033B72-7615-4EC6-A044-EADFA0EF142E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF5C809-3D33-4D65-805E-70E188A69B60}
+	EndGlobalSection
+EndGlobal
